@@ -18,8 +18,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private OnItemClickListener listener;
     private OnLongItemClickListener longListener;
 
-    String API_TOKEN = "QJKIOonDVGoA0cV03XaDUjnIz0dTCOqu589EjKF1";
-
     // Constructor
     public MyAdapter(Context context, List<String> examList, List<String> descriptionList, OnItemClickListener listener, OnLongItemClickListener longListener) {
         this.context = context;
